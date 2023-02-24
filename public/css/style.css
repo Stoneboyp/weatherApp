@@ -1,0 +1,77 @@
+.container {
+  max-width: 800px; /* максимальная ширина контейнера */
+  margin: 0 auto; /* выравнивание по центру */
+}
+.search-box {
+  display: flex; /* использование Flexbox для расположения элементов в строку */
+  justify-content: center; /* выравнивание элементов по центру */
+  margin-top: 50px; /* отступ сверху */
+}
+
+input[type="text"] {
+  width: 250px; /* ширина поля ввода */
+  padding: 10px; /* внутренний отступ */
+  border: 2px solid #ccc; /* граница */
+  border-radius: 5px; /* закругление углов */
+  font-size: 16px; /* размер шрифта */
+}
+
+button.search-btn {
+
+  background-color: #0077ff; /* цвет фона */
+  color: #fff; /* цвет текста */
+  border: none; /* без границы */
+  border-radius: 5px; /* закругление углов */
+  padding: 10px 20px; /* внутренний отступ */
+  margin-left: 10px; /* отступ слева */
+  font-size: 16px; /* размер шрифта */
+  cursor: pointer; /* изменение курсора при наведении */
+}
+
+.not-found {
+  display: none; /* скрытие блока */
+  text-align: center; /* выравнивание текста по центру */
+  margin-top: 50px; /* отступ сверху */
+}
+
+.not-found img {
+  max-width: 100%; /* максимальная ширина изображения */
+}
+
+.not-found p {
+  font-size: 24px; /* размер шрифта */
+  color: #f00; /* красный цвет текста */
+  font-weight: bold; /* жирный шрифт */
+}
+
+.weather-box {
+  margin-top: 50px; /* отступ сверху */
+  text-align: center; /* выравнивание текста по центру */
+}
+
+.myLocation {
+
+  display: flex; /* использование Flexbox для расположения элементов в строку */
+  justify-content: center; /* выравнивание элементов по центру */
+  margin-bottom: 50px; /* отступ снизу */
+}
+
+.myLocation-btn{
+  transform: translateY(-10px );
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none; /* без границы */
+  border-radius: 50%; /* круглая форма */
+  padding: 20px; /* внутренний отступ */
+  margin-right: 10px; 
+}
+img{
+
+  width: 70px;
+
+}
+

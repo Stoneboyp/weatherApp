@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-box">
+        <input type="text" placeholder="Enter geo" />
+        <button id="searchCity" class="search-btn">search</button>
+      </div>
+
+      <div class="not-found">
+        <img
+          src="./img/page-found-concept-illustration_114360-1869.avif"
+          alt="404 not-found"
+          class="src"
+          width="250px"
+          height="250px"
+        />
+        <p>invalid location</p>
+      </div>
+      <div class="weather-box">
+        <div class="myLocation">
+          <button id="myLocation" class="myLocation-btn">
+            <img src="./icon/29476710.svg" alt="" />
+          </button>
+          <div id="hidden_location">
+            <p id="currentCity"></p>
+            <p id="avgTemperature"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="chart">
+      <script
+        type="module"
+        src="https://cdn.jsdelivr.net/npm/apexcharts"
+      ></script>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
